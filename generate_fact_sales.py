@@ -1,4 +1,6 @@
 """
+"""
+"""
 TechMart – Generator danych sprzedażowych (FactSales) v10
 ==========================================================
 Uruchomienie:
