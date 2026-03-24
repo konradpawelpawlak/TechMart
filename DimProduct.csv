@@ -1,0 +1,27 @@
+ProductKey,ProductName,Category,UnitPrice_PLN,CostPrice_PLN,MarginPct,IsActive
+1,iPhone 13,Smartfony,3999,2639.34,0.34,1
+2,iPhone 14,Smartfony,4499,3779.16,0.16,1
+3,iPhone 15,Smartfony,5299,4080.23,0.23,1
+4,Samsung S22,Smartfony,3499,2729.22,0.22,1
+5,Samsung S23,Smartfony,3999,2519.37,0.37,1
+6,Xiaomi 12,Smartfony,2199,1429.35,0.35,1
+7,Dell XPS 13,Laptopy,5499,3189.42,0.42,1
+8,MacBook Air M2,Laptopy,6499,5329.18,0.18,1
+9,Lenovo ThinkPad X1,Laptopy,6999,5039.28,0.28,1
+10,HP Spectre,Laptopy,5999,5039.16,0.16,1
+11,ASUS ZenBook,Laptopy,3999,3119.22,0.22,1
+12,iPad 10gen,Tablety,2299,1609.3,0.3,1
+13,iPad Pro 12.9,Tablety,5599,4703.16,0.16,1
+14,Samsung Tab S8,Tablety,3199,2527.21,0.21,1
+15,Huawei MatePad,Tablety,1599,1055.34,0.34,1
+16,AirPods Pro,Akcesoria,999,689.31,0.31,1
+17,Słuchawki Sony WH-1000,Akcesoria,1299,1013.22,0.22,1
+18,Ładowarka 65W,Akcesoria,149,99.83,0.33,1
+19,Kabel USB-C,Akcesoria,49,29.89,0.39,1
+20,Etui skórzane,Akcesoria,129,109.65,0.15,1
+21,Powerbank 20000,Akcesoria,249,151.89,0.39,1
+22,Google Nest Hub,Smart Home,499,319.36,0.36,1
+23,Echo Dot 5gen,Smart Home,299,224.25,0.25,1
+24,Philips Hue Starter,Smart Home,599,479.2,0.2,1
+25,Ring Doorbell,Smart Home,799,447.44,0.44,1
+26,iRobot Roomba,Smart Home,1999,1499.25,0.25,1

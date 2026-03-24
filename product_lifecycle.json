@@ -1,0 +1,296 @@
+{
+    "1": {
+        "name": "iPhone 13",
+        "phases": [
+            { "date_to": "2021-09-23", "boost": 0.00 },
+            { "date_from": "2021-09-24", "date_to": "2021-10-31", "boost": 3.80, "noise": 0.15 },
+            { "date_from": "2021-11-01", "date_to": "2021-12-31", "boost": 4.20, "noise": 0.12 },
+            { "date_from": "2022-01-01", "date_to": "2022-03-31", "boost": 2.60, "noise": 0.10 },
+            { "date_from": "2022-04-01", "date_to": "2022-09-15", "boost": 1.80, "noise": 0.10 },
+            { "date_from": "2022-09-16", "date_to": "2022-12-31", "boost": 0.95, "noise": 0.08 },
+            { "date_from": "2023-01-01", "date_to": "2023-08-31", "boost": 0.62, "noise": 0.10 },
+            { "date_from": "2023-09-01", "date_to": "2023-12-31", "boost": 0.38, "noise": 0.08 },
+            { "date_from": "2024-01-01", "date_to": "2024-06-30", "boost": 0.18, "noise": 0.06 },
+            { "date_from": "2024-07-01", "date_to": "2024-12-31", "boost": 0.00 }
+        ]
+    },
+
+    "2": {
+        "name": "iPhone 14",
+        "phases": [
+            { "date_to": "2022-09-15", "boost": 0.00 },
+            { "date_from": "2022-09-16", "date_to": "2022-10-31", "boost": 3.90, "noise": 0.15 },
+            { "date_from": "2022-11-01", "date_to": "2022-12-31", "boost": 4.40, "noise": 0.12 },
+            { "date_from": "2023-01-01", "date_to": "2023-03-31", "boost": 2.70, "noise": 0.10 },
+            { "date_from": "2023-04-01", "date_to": "2023-09-21", "boost": 1.90, "noise": 0.10 },
+            { "date_from": "2023-09-22", "date_to": "2023-12-31", "boost": 1.05, "noise": 0.08 },
+            { "date_from": "2024-01-01", "date_to": "2024-06-30", "boost": 0.72, "noise": 0.10 },
+            { "date_from": "2024-07-01", "date_to": "2024-12-31", "boost": 0.48, "noise": 0.08 }
+        ]
+    },
+
+    "3": {
+        "name": "iPhone 15",
+        "phases": [
+            { "date_to": "2023-09-21", "boost": 0.00 },
+            { "date_from": "2023-09-22", "date_to": "2023-10-31", "boost": 4.10, "noise": 0.15 },
+            { "date_from": "2023-11-01", "date_to": "2023-12-31", "boost": 4.60, "noise": 0.12 },
+            { "date_from": "2024-01-01", "date_to": "2024-03-31", "boost": 2.90, "noise": 0.10 },
+            { "date_from": "2024-04-01", "date_to": "2024-06-30", "boost_start": 2.40, "boost_end": 2.80, "noise": 0.10 },
+            { "date_from": "2024-07-01", "date_to": "2024-09-30", "boost_start": 2.80, "boost_end": 3.20, "noise": 0.10 },
+            { "date_from": "2024-10-01", "date_to": "2024-12-31", "boost_start": 3.20, "boost_end": 3.60, "noise": 0.08 }
+        ]
+    },
+
+    "4": {
+        "name": "Samsung S22",
+        "phases": [
+            { "date_to": "2022-02-08", "boost": 0.00 },
+            { "date_from": "2022-02-09", "date_to": "2022-03-31", "boost": 3.60, "noise": 0.15 },
+            { "date_from": "2022-04-01", "date_to": "2022-06-30", "boost": 2.80, "noise": 0.10 },
+            { "date_from": "2022-07-01", "date_to": "2022-12-31", "boost": 2.10, "noise": 0.10 },
+            { "date_from": "2023-01-01", "date_to": "2023-02-16", "boost": 1.60, "noise": 0.10 },
+            { "date_from": "2023-02-17", "date_to": "2023-06-30", "boost": 0.85, "noise": 0.08 },
+            { "date_from": "2023-07-01", "date_to": "2023-12-31", "boost": 0.52, "noise": 0.08 },
+            { "date_from": "2024-01-01", "date_to": "2024-03-31", "boost": 0.20, "noise": 0.06 },
+            { "date_from": "2024-04-01", "date_to": "2024-12-31", "boost": 0.00 }
+        ]
+    },
+
+    "5": {
+        "name": "Samsung S23",
+        "phases": [
+            { "date_to": "2023-02-16", "boost": 0.00 },
+            { "date_from": "2023-02-17", "date_to": "2023-03-31", "boost": 3.70, "noise": 0.15 },
+            { "date_from": "2023-04-01", "date_to": "2023-06-30", "boost": 2.90, "noise": 0.10 },
+            { "date_from": "2023-07-01", "date_to": "2023-12-31", "boost": 2.30, "noise": 0.10 },
+            { "date_from": "2024-01-01", "date_to": "2024-06-30", "boost_start": 2.00, "boost_end": 2.40, "noise": 0.10 },
+            { "date_from": "2024-07-01", "date_to": "2024-12-31", "boost_start": 2.40, "boost_end": 2.70, "noise": 0.08 }
+        ]
+    },
+
+    "6": {
+        "name": "Xiaomi 12",
+        "phases": [
+            { "date_to": "2022-03-14", "boost": 0.00 },
+            { "date_from": "2022-03-15", "date_to": "2022-04-30", "boost": 2.40, "noise": 0.15 },
+            { "date_from": "2022-05-01", "date_to": "2022-12-31", "boost": 1.80, "noise": 0.10 },
+            { "date_from": "2023-01-01", "date_to": "2023-06-30", "boost": 1.50, "noise": 0.10 },
+            { "date_from": "2023-07-01", "date_to": "2023-12-31", "boost": 1.20, "noise": 0.10 },
+            { "date_from": "2024-01-01", "date_to": "2024-06-30", "boost": 0.85, "noise": 0.10 },
+            { "date_from": "2024-07-01", "date_to": "2024-12-31", "boost": 0.60, "noise": 0.08 }
+        ]
+    },
+
+    "7": {
+        "name": "Dell XPS 13",
+        "phases": [
+            { "date_from": "2021-01-01", "date_to": "2021-12-31", "boost": 1.00, "noise": 0.08 },
+            { "date_from": "2022-01-01", "date_to": "2022-12-31", "boost": 1.12, "noise": 0.08 },
+            { "date_from": "2023-01-01", "date_to": "2023-12-31", "boost": 1.18, "noise": 0.10 },
+            { "date_from": "2024-01-01", "date_to": "2024-12-31", "boost": 1.25, "noise": 0.10 }
+        ]
+    },
+
+    "8": {
+        "name": "MacBook Air M2",
+        "phases": [
+            { "date_to": "2022-06-12", "boost": 0.00 },
+            { "date_from": "2022-06-13", "date_to": "2022-07-31", "boost": 3.40, "noise": 0.15 },
+            { "date_from": "2022-08-01", "date_to": "2022-09-30", "boost": 3.80, "noise": 0.12 },
+            { "date_from": "2022-10-01", "date_to": "2022-12-31", "boost": 3.20, "noise": 0.10 },
+            { "date_from": "2023-01-01", "date_to": "2023-06-30", "boost": 2.60, "noise": 0.10 },
+            { "date_from": "2023-07-01", "date_to": "2023-12-31", "boost_start": 2.60, "boost_end": 3.10, "noise": 0.10 },
+            { "date_from": "2024-01-01", "date_to": "2024-12-31", "boost_start": 3.10, "boost_end": 3.50, "noise": 0.08 }
+        ]
+    },
+
+    "9": {
+        "name": "Lenovo ThinkPad X1",
+        "phases": [
+            { "date_from": "2021-01-01", "date_to": "2021-12-31", "boost": 1.00, "noise": 0.06 },
+            { "date_from": "2022-01-01", "date_to": "2022-12-31", "boost": 1.05, "noise": 0.06 },
+            { "date_from": "2023-01-01", "date_to": "2023-12-31", "boost": 1.10, "noise": 0.06 },
+            { "date_from": "2024-01-01", "date_to": "2024-12-31", "boost": 1.08, "noise": 0.06 }
+        ]
+    },
+
+    "10": {
+        "name": "HP Spectre",
+        "phases": [
+            { "date_from": "2021-01-01", "date_to": "2021-12-31", "boost": 1.10, "noise": 0.08 },
+            { "date_from": "2022-01-01", "date_to": "2022-12-31", "boost": 1.05, "noise": 0.08 },
+            { "date_from": "2023-01-01", "date_to": "2023-12-31", "boost": 0.90, "noise": 0.10 },
+            { "date_from": "2024-01-01", "date_to": "2024-09-30", "boost": 0.50, "noise": 0.10 },
+            { "date_from": "2024-10-01", "date_to": "2024-12-31", "boost": 0.00 }
+        ]
+    },
+
+    "11": {
+        "name": "ASUS ZenBook",
+        "phases": [
+            { "date_from": "2021-01-01", "date_to": "2021-12-31", "boost": 0.90, "noise": 0.08 },
+            { "date_from": "2022-01-01", "date_to": "2022-12-31", "boost": 1.10, "noise": 0.08 },
+            { "date_from": "2023-01-01", "date_to": "2023-12-31", "boost": 1.30, "noise": 0.10 },
+            { "date_from": "2024-01-01", "date_to": "2024-12-31", "boost": 1.45, "noise": 0.10 }
+        ]
+    },
+
+    "12": {
+        "name": "iPad 10gen",
+        "phases": [
+            { "date_to": "2022-10-17", "boost": 0.00 },
+            { "date_from": "2022-10-18", "date_to": "2022-11-30", "boost": 3.20, "noise": 0.15 },
+            { "date_from": "2022-12-01", "date_to": "2022-12-31", "boost": 3.60, "noise": 0.12 },
+            { "date_from": "2023-01-01", "date_to": "2023-06-30", "boost": 2.30, "noise": 0.10 },
+            { "date_from": "2023-07-01", "date_to": "2023-12-31", "boost": 1.70, "noise": 0.10 },
+            { "date_from": "2024-01-01", "date_to": "2024-12-31", "boost": 1.20, "noise": 0.10 }
+        ]
+    },
+
+    "13": {
+        "name": "iPad Pro 12.9",
+        "phases": [
+            { "date_from": "2021-01-01", "date_to": "2021-05-20", "boost": 0.60, "noise": 0.08 },
+            { "date_from": "2021-05-21", "date_to": "2021-07-31", "boost": 1.80, "noise": 0.15 },
+            { "date_from": "2021-08-01", "date_to": "2021-12-31", "boost": 1.20, "noise": 0.10 },
+            { "date_from": "2022-01-01", "date_to": "2022-12-31", "boost": 0.85, "noise": 0.08 },
+            { "date_from": "2023-01-01", "date_to": "2023-12-31", "boost": 0.65, "noise": 0.08 },
+            { "date_from": "2024-01-01", "date_to": "2024-12-31", "boost": 0.50, "noise": 0.06 }
+        ]
+    },
+
+    "14": {
+        "name": "Samsung Tab S8",
+        "phases": [
+            { "date_to": "2022-02-08", "boost": 0.00 },
+            { "date_from": "2022-02-09", "date_to": "2022-03-31", "boost": 2.80, "noise": 0.15 },
+            { "date_from": "2022-04-01", "date_to": "2022-12-31", "boost": 2.00, "noise": 0.10 },
+            { "date_from": "2023-01-01", "date_to": "2023-12-31", "boost": 1.30, "noise": 0.10 },
+            { "date_from": "2024-01-01", "date_to": "2024-12-31", "boost": 0.80, "noise": 0.08 }
+        ]
+    },
+
+    "15": {
+        "name": "Huawei MatePad",
+        "phases": [
+            { "date_from": "2021-01-01", "date_to": "2021-12-31", "boost": 1.20, "noise": 0.10 },
+            { "date_from": "2022-01-01", "date_to": "2022-12-31", "boost": 0.90, "noise": 0.10 },
+            { "date_from": "2023-01-01", "date_to": "2023-12-31", "boost": 0.55, "noise": 0.10 },
+            { "date_from": "2024-01-01", "date_to": "2024-12-31", "boost": 0.00 }
+        ]
+    },
+
+    "16": {
+        "name": "AirPods Pro",
+        "phases": [
+            { "date_from": "2021-01-01", "date_to": "2022-09-22", "boost": 1.40, "noise": 0.08 },
+            { "date_from": "2022-09-23", "date_to": "2022-10-31", "boost": 2.80, "noise": 0.15 },
+            { "date_from": "2022-11-01", "date_to": "2022-12-31", "boost": 3.10, "noise": 0.12 },
+            { "date_from": "2023-01-01", "date_to": "2023-12-31", "boost": 2.20, "noise": 0.10 },
+            { "date_from": "2024-01-01", "date_to": "2024-12-31", "boost_start": 2.00, "boost_end": 2.40, "noise": 0.08 }
+        ]
+    },
+
+    "17": {
+        "name": "Słuchawki Sony WH-1000",
+        "phases": [
+            { "date_from": "2021-01-01", "date_to": "2021-12-31", "boost": 1.10, "noise": 0.08 },
+            { "date_from": "2022-01-01", "date_to": "2022-12-31", "boost": 1.25, "noise": 0.08 },
+            { "date_from": "2023-01-01", "date_to": "2023-12-31", "boost": 1.40, "noise": 0.08 },
+            { "date_from": "2024-01-01", "date_to": "2024-12-31", "boost": 1.55, "noise": 0.08 }
+        ]
+    },
+
+    "18": {
+        "name": "Ładowarka 65W",
+        "phases": [
+            { "date_from": "2021-01-01", "date_to": "2021-12-31", "boost": 0.80, "noise": 0.06 },
+            { "date_from": "2022-01-01", "date_to": "2022-12-31", "boost": 1.10, "noise": 0.06 },
+            { "date_from": "2023-01-01", "date_to": "2023-12-31", "boost": 1.45, "noise": 0.08 },
+            { "date_from": "2024-01-01", "date_to": "2024-12-31", "boost": 1.80, "noise": 0.08 }
+        ]
+    },
+
+    "19": {
+        "name": "Kabel USB-C",
+        "phases": [
+            { "date_from": "2021-01-01", "date_to": "2021-12-31", "boost": 0.70, "noise": 0.06 },
+            { "date_from": "2022-01-01", "date_to": "2022-12-31", "boost": 1.00, "noise": 0.06 },
+            { "date_from": "2023-01-01", "date_to": "2023-12-31", "boost": 1.40, "noise": 0.08 },
+            { "date_from": "2024-01-01", "date_to": "2024-12-31", "boost": 1.85, "noise": 0.08 }
+        ]
+    },
+
+    "20": {
+        "name": "Etui skórzane",
+        "phases": [
+            { "date_from": "2021-01-01", "date_to": "2021-12-31", "boost": 1.00, "noise": 0.08 },
+            { "date_from": "2022-01-01", "date_to": "2022-12-31", "boost": 1.10, "noise": 0.08 },
+            { "date_from": "2023-01-01", "date_to": "2023-12-31", "boost": 1.20, "noise": 0.08 },
+            { "date_from": "2024-01-01", "date_to": "2024-12-31", "boost": 1.15, "noise": 0.08 }
+        ]
+    },
+
+    "21": {
+        "name": "Powerbank 20000",
+        "phases": [
+            { "date_from": "2021-01-01", "date_to": "2021-12-31", "boost": 0.90, "noise": 0.08 },
+            { "date_from": "2022-01-01", "date_to": "2022-12-31", "boost": 1.05, "noise": 0.08 },
+            { "date_from": "2023-01-01", "date_to": "2023-12-31", "boost": 1.18, "noise": 0.08 },
+            { "date_from": "2024-01-01", "date_to": "2024-12-31", "boost": 1.30, "noise": 0.08 }
+        ]
+    },
+
+    "22": {
+        "name": "Google Nest Hub",
+        "phases": [
+            { "date_from": "2021-01-01", "date_to": "2021-12-31", "boost": 0.85, "noise": 0.10 },
+            { "date_from": "2022-01-01", "date_to": "2022-12-31", "boost": 1.10, "noise": 0.10 },
+            { "date_from": "2023-01-01", "date_to": "2023-12-31", "boost": 1.35, "noise": 0.10 },
+            { "date_from": "2024-01-01", "date_to": "2024-12-31", "boost": 1.55, "noise": 0.10 }
+        ]
+    },
+
+    "23": {
+        "name": "Echo Dot 5gen",
+        "phases": [
+            { "date_to": "2022-10-19", "boost": 0.00 },
+            { "date_from": "2022-10-20", "date_to": "2022-11-30", "boost": 2.80, "noise": 0.15 },
+            { "date_from": "2022-12-01", "date_to": "2022-12-31", "boost": 3.40, "noise": 0.12 },
+            { "date_from": "2023-01-01", "date_to": "2023-06-30", "boost": 2.00, "noise": 0.10 },
+            { "date_from": "2023-07-01", "date_to": "2023-12-31", "boost": 1.80, "noise": 0.10 },
+            { "date_from": "2024-01-01", "date_to": "2024-12-31", "boost": 1.60, "noise": 0.10 }
+        ]
+    },
+
+    "24": {
+        "name": "Philips Hue Starter",
+        "phases": [
+            { "date_from": "2021-01-01", "date_to": "2021-12-31", "boost": 1.00, "noise": 0.10 },
+            { "date_from": "2022-01-01", "date_to": "2022-12-31", "boost": 1.10, "noise": 0.10 },
+            { "date_from": "2023-01-01", "date_to": "2023-12-31", "boost": 1.20, "noise": 0.10 },
+            { "date_from": "2024-01-01", "date_to": "2024-12-31", "boost": 1.30, "noise": 0.10 }
+        ]
+    },
+
+    "25": {
+        "name": "Ring Doorbell",
+        "phases": [
+            { "date_from": "2021-01-01", "date_to": "2021-12-31", "boost": 0.75, "noise": 0.10 },
+            { "date_from": "2022-01-01", "date_to": "2022-12-31", "boost": 1.15, "noise": 0.10 },
+            { "date_from": "2023-01-01", "date_to": "2023-12-31", "boost": 1.60, "noise": 0.10 },
+            { "date_from": "2024-01-01", "date_to": "2024-12-31", "boost_start": 1.80, "boost_end": 2.30, "noise": 0.10 }
+        ]
+    },
+
+    "26": {
+        "name": "iRobot Roomba",
+        "phases": [
+            { "date_from": "2021-01-01", "date_to": "2021-12-31", "boost": 1.00, "noise": 0.08 },
+            { "date_from": "2022-01-01", "date_to": "2022-12-31", "boost": 1.05, "noise": 0.08 },
+            { "date_from": "2023-01-01", "date_to": "2023-12-31", "boost": 1.10, "noise": 0.10 },
+            { "date_from": "2024-01-01", "date_to": "2024-12-31", "boost": 1.08, "noise": 0.10 }
+        ]
+    }
+}

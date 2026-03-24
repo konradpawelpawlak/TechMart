@@ -1,0 +1,32 @@
+{
+    "discount_cap": 35,
+
+    "aging_tiers": [
+        { "months_max":  3, "discount":  0 },
+        { "months_max": 12, "discount":  3 },
+        { "months_max": 24, "discount":  8 },
+        { "months_max": 99, "discount": 14 }
+    ],
+
+    "quantity_tiers": [
+        { "qty_max":   5, "discount":  0 },
+        { "qty_max":  20, "discount":  2 },
+        { "qty_max": 100, "discount":  4 },
+        { "qty_max": 999, "discount":  7 }
+    ],
+
+    "loyalty_tiers": [
+        { "orders_max":  10, "discount": 0 },
+        { "orders_max":  30, "discount": 1 },
+        { "orders_max":  70, "discount": 2 },
+        { "orders_max": 999, "discount": 3 }
+    ],
+
+    "seasonal_discounts": {
+        "standard":       3,
+        "category_event": 6,
+        "clearance":      10
+    },
+
+    "clearance_aging_months": 24
+}

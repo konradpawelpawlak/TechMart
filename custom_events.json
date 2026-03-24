@@ -1,0 +1,253 @@
+[
+    {
+        "name": "Spadek tabletów 2022",
+        "date_from": "2022-01-01",
+        "date_to": "2022-12-31",
+        "filters": { "Category": ["Tablety"] },
+        "boost": 0.72,
+        "noise": 0.05
+    },
+    {
+        "name": "Spadek tabletów 2023",
+        "date_from": "2023-01-01",
+        "date_to": "2023-12-31",
+        "filters": { "Category": ["Tablety"] },
+        "boost": 0.48,
+        "noise": 0.05
+    },
+    {
+        "name": "Spadek tabletów 2024",
+        "date_from": "2024-01-01",
+        "date_to": "2024-12-31",
+        "filters": { "Category": ["Tablety"] },
+        "boost": 0.28,
+        "noise": 0.05
+    },
+    {
+        "name": "Słaby region Łódzkie",
+        "date_from": "2021-01-01",
+        "date_to": "2024-12-31",
+        "filters": { "Region": ["Łódzkie"] },
+        "boost": 0.30,
+        "noise": 0.0
+    },
+
+    {
+        "name": "Akcesoria boom 2023",
+        "date_from": "2023-01-01",
+        "date_to": "2023-12-31",
+        "filters": { "Category": ["Akcesoria"] },
+        "boost": 1.80,
+        "noise": 0.10
+    },
+    {
+        "name": "Akcesoria spadek 2024",
+        "date_from": "2024-01-01",
+        "date_to": "2024-12-31",
+        "filters": { "Category": ["Akcesoria"] },
+        "boost": 0.30,
+        "noise": 0.10
+    },
+
+    {
+        "name": "Smart Home boom świąteczny 2021",
+        "date_from": "2021-11-01",
+        "date_to": "2021-12-24",
+        "filters": { "Category": ["Smart Home"] },
+        "boost": 1.60,
+        "noise": 0.15
+    },
+    {
+        "name": "Smart Home boom świąteczny 2022",
+        "date_from": "2022-11-01",
+        "date_to": "2022-12-24",
+        "filters": { "Category": ["Smart Home"] },
+        "boost": 1.60,
+        "noise": 0.15
+    },
+    {
+        "name": "Smart Home boom świąteczny 2023",
+        "date_from": "2023-11-01",
+        "date_to": "2023-12-24",
+        "filters": { "Category": ["Smart Home"] },
+        "boost": 1.60,
+        "noise": 0.15
+    },
+    {
+        "name": "Smart Home boom świąteczny 2024",
+        "date_from": "2024-11-01",
+        "date_to": "2024-12-24",
+        "filters": { "Category": ["Smart Home"] },
+        "boost": 1.60,
+        "noise": 0.15
+    },
+
+    {
+        "name": "Laptopy Back to School 2023",
+        "date_from": "2023-08-01",
+        "date_to": "2023-09-30",
+        "filters": { "Category": ["Laptopy"] },
+        "boost": 1.50,
+        "noise": 0.10
+    },
+    {
+        "name": "Laptopy Back to School 2024",
+        "date_from": "2024-08-01",
+        "date_to": "2024-09-30",
+        "filters": { "Category": ["Laptopy"] },
+        "boost": 1.50,
+        "noise": 0.10
+    },
+
+    {
+        "name": "Smartfony poświąteczny spadek 2021",
+        "date_from": "2021-01-02",
+        "date_to": "2021-02-28",
+        "filters": { "Category": ["Smartfony"] },
+        "boost": 0.70,
+        "noise": 0.10
+    },
+    {
+        "name": "Smartfony poświąteczny spadek 2022",
+        "date_from": "2022-01-02",
+        "date_to": "2022-02-28",
+        "filters": { "Category": ["Smartfony"] },
+        "boost": 0.70,
+        "noise": 0.10
+    },
+    {
+        "name": "Smartfony poświąteczny spadek 2023",
+        "date_from": "2023-01-02",
+        "date_to": "2023-02-28",
+        "filters": { "Category": ["Smartfony"] },
+        "boost": 0.70,
+        "noise": 0.10
+    },
+    {
+        "name": "Smartfony poświąteczny spadek 2024",
+        "date_from": "2024-01-02",
+        "date_to": "2024-02-29",
+        "filters": { "Category": ["Smartfony"] },
+        "boost": 0.70,
+        "noise": 0.10
+    },
+
+    {
+        "name": "Akcesoria walentynki 2021",
+        "date_from": "2021-02-01",
+        "date_to": "2021-02-14",
+        "filters": { "Category": ["Akcesoria"] },
+        "boost": 1.40,
+        "noise": 0.15
+    },
+    {
+        "name": "Akcesoria walentynki 2022",
+        "date_from": "2022-02-01",
+        "date_to": "2022-02-14",
+        "filters": { "Category": ["Akcesoria"] },
+        "boost": 1.40,
+        "noise": 0.15
+    },
+    {
+        "name": "Akcesoria walentynki 2023",
+        "date_from": "2023-02-01",
+        "date_to": "2023-02-14",
+        "filters": { "Category": ["Akcesoria"] },
+        "boost": 1.40,
+        "noise": 0.15
+    },
+    {
+        "name": "Akcesoria walentynki 2024",
+        "date_from": "2024-02-01",
+        "date_to": "2024-02-14",
+        "filters": { "Category": ["Akcesoria"] },
+        "boost": 1.40,
+        "noise": 0.15
+    },
+
+    {
+        "name": "Niemcy ekspansja Q4 2023",
+        "date_from": "2023-10-01",
+        "date_to": "2023-12-31",
+        "filters": { "Country": ["Niemcy"] },
+        "boost": 1.35,
+        "noise": 0.10
+    },
+
+    {
+        "name": "B2B wakacyjny spadek 2021",
+        "date_from": "2021-07-01",
+        "date_to": "2021-08-31",
+        "filters": { "Segment": ["B2B"] },
+        "boost": 0.20,
+        "noise": 0.15
+    },
+    {
+        "name": "B2B wakacyjny spadek 2022",
+        "date_from": "2022-07-01",
+        "date_to": "2022-08-31",
+        "filters": { "Segment": ["B2B"] },
+        "boost": 0.20,
+        "noise": 0.15
+    },
+    {
+        "name": "B2B wakacyjny spadek 2023",
+        "date_from": "2023-07-01",
+        "date_to": "2023-08-31",
+        "filters": { "Segment": ["B2B"] },
+        "boost": 0.20,
+        "noise": 0.15
+    },
+    {
+        "name": "B2B wakacyjny spadek 2024",
+        "date_from": "2024-07-01",
+        "date_to": "2024-08-31",
+        "filters": { "Segment": ["B2B"] },
+        "boost": 0.20,
+        "noise": 0.15
+    },
+
+    {
+        "name": "Słowacja nowy klient korporacyjny 2024",
+        "date_from": "2024-01-01",
+        "date_to": "2024-12-31",
+        "filters": { "Country": ["Słowacja"] },
+        "boost": 1.90,
+        "noise": 0.20
+    },
+
+    {
+        "name": "Premiera flagowego smartfona III 2023",
+        "date_from": "2023-03-10",
+        "date_to": "2023-03-24",
+        "filters": { "Category": ["Smartfony"] },
+        "boost": 2.20,
+        "noise": 0.15
+    },
+
+    {
+        "name": "Problemy z dostawami laptopów Q2 2022",
+        "date_from": "2022-04-01",
+        "date_to": "2022-06-30",
+        "filters": { "Category": ["Laptopy"] },
+        "boost": 0.55,
+        "noise": 0.10
+    },
+
+    {
+        "name": "Niemcy brak sprzedaży 2021",
+        "date_from": "2021-01-01",
+        "date_to": "2021-12-31",
+        "filters": { "Country": ["Niemcy"] },
+        "boost": 0.01,
+        "noise": 0.0
+    },
+    {
+        "name": "Niemcy brak sprzedaży 2022",
+        "date_from": "2022-01-01",
+        "date_to": "2022-12-31",
+        "filters": { "Country": ["Niemcy"] },
+        "boost": 0.01,
+        "noise": 0.0
+    }
+]

@@ -1,0 +1,242 @@
+{
+    "segment": {
+        "B2C": 95.50,
+        "B2B":  4.50
+    },
+
+    "country": {
+        "B2C": {
+            "Polska":   71.84,
+            "Niemcy":   15.23,
+            "Czechy":    8.67,
+            "Słowacja":  4.26
+        },
+        "B2B": {
+            "Polska":   84.72,
+            "Niemcy":   10.14,
+            "Czechy":    3.85,
+            "Słowacja":  1.29
+        }
+    },
+
+    "region": {
+        "Polska": {
+            "Mazowieckie":          22.18,
+            "Śląskie":             11.74,
+            "Wielkopolskie":        10.22,
+            "Małopolskie":           9.13,
+            "Dolnośląskie":          8.06,
+            "Pomorskie":             6.83,
+            "Łódzkie":               3.92,
+            "Kujawsko-pomorskie":    4.17,
+            "Lubelskie":             3.86,
+            "Podkarpackie":          3.54,
+            "Zachodniopomorskie":     3.47,
+            "Warmińsko-mazurskie":   2.94,
+            "Świętokrzyskie":        2.51,
+            "Podlaskie":             2.48,
+            "Opolskie":              2.53,
+            "Lubuskie":              2.42
+        }
+    },
+
+    "channel": {
+        "B2C|Polska": {
+            "Online":       54.82,
+            "Sklep":        24.67,
+            "Marketplace":  20.51
+        },
+        "B2C|Niemcy": {
+            "Online":       41.23,
+            "Marketplace":  58.77
+        },
+        "B2C|Czechy": {
+            "Online":       51.36,
+            "Marketplace":  48.64
+        },
+        "B2C|Słowacja": {
+            "Online":       56.18,
+            "Marketplace":  43.82
+        },
+        "B2B|Polska": {
+            "Online":       69.34,
+            "Sklep":        14.82,
+            "Opiekun":      15.84
+        },
+        "B2B|Niemcy": {
+            "Online":       48.63,
+            "Opiekun":      51.37
+        },
+        "B2B|Czechy": {
+            "Online":       61.28,
+            "Opiekun":      38.72
+        },
+        "B2B|Słowacja": {
+            "Online":       63.41,
+            "Opiekun":      36.59
+        }
+    },
+
+    "category": {
+        "B2C|Online": {
+            "Akcesoria":   31.74,
+            "Smartfony":   24.83,
+            "Laptopy":     18.26,
+            "Smart Home":  15.12,
+            "Tablety":     10.05
+        },
+        "B2C|Sklep": {
+            "Akcesoria":   19.68,
+            "Smartfony":   35.42,
+            "Laptopy":     24.53,
+            "Smart Home":  10.24,
+            "Tablety":     10.13
+        },
+        "B2C|Marketplace": {
+            "Akcesoria":   44.87,
+            "Smartfony":   19.63,
+            "Laptopy":     10.28,
+            "Smart Home":  18.14,
+            "Tablety":      7.08
+        },
+        "B2B|Online": {
+            "Akcesoria":    3.12,
+            "Smartfony":   44.86,
+            "Laptopy":      4.73,
+            "Smart Home":   2.18,
+            "Tablety":     45.11
+        },
+        "B2B|Sklep": {
+            "Akcesoria":    4.87,
+            "Smartfony":   40.26,
+            "Laptopy":      9.74,
+            "Smart Home":   4.92,
+            "Tablety":     40.21
+        },
+        "B2B|Opiekun": {
+            "Akcesoria":    1.86,
+            "Smartfony":   48.37,
+            "Laptopy":      2.94,
+            "Smart Home":   1.72,
+            "Tablety":     45.11
+        }
+    },
+
+    "quantity": {
+        "B2C": {
+            "distribution": "hyperbolic",
+            "power":         2.5,
+            "max":          15
+        },
+        "B2B": {
+            "distribution": "normal",
+            "mu":          100,
+            "sigma":        60,
+            "min":           1,
+            "max":         346
+        }
+    },
+
+    "payment_method": {
+        "B2C|Polska|Online": {
+            "BLIK":      44.68,
+            "Karta":     24.53,
+            "Przelew":   10.27,
+            "Raty":      14.86,
+            "Pobranie":   5.66
+        },
+        "B2C|Polska|Sklep": {
+            "Karta":     49.72,
+            "Gotówka":   30.14,
+            "BLIK":      14.83,
+            "Raty":       5.31
+        },
+        "B2C|Polska|Marketplace": {
+            "BLIK":      39.84,
+            "Karta":     29.67,
+            "Pobranie":  20.38,
+            "Przelew":   10.11
+        },
+        "B2C|Niemcy|Online": {
+            "Karta":     64.82,
+            "Przelew":   24.57,
+            "PayPal":    10.61
+        },
+        "B2C|Niemcy|Marketplace": {
+            "Karta":     54.36,
+            "PayPal":    35.42,
+            "Przelew":   10.22
+        },
+        "B2C|Czechy|Online": {
+            "Karta":     63.47,
+            "Przelew":   25.92,
+            "PayPal":    10.61
+        },
+        "B2C|Czechy|Marketplace": {
+            "Karta":     53.18,
+            "PayPal":    36.74,
+            "Przelew":   10.08
+        },
+        "B2C|Słowacja|Online": {
+            "Karta":     64.13,
+            "Przelew":   24.86,
+            "PayPal":    11.01
+        },
+        "B2C|Słowacja|Marketplace": {
+            "Karta":     55.27,
+            "PayPal":    34.61,
+            "Przelew":   10.12
+        },
+        "B2B|_default": {
+            "Przelew":   85.34,
+            "Karta":      9.78,
+            "Raty":        4.88
+        },
+
+        "_modifiers": {
+            "raty_boost_categories": ["Laptopy", "Smartfony"],
+            "raty_boost_pp":         10.0,
+            "raty_reduce_from":     ["BLIK", "Karta"]
+        }
+    },
+
+    "order_status": {
+        "B2C": {
+            "Zrealizowane": 93.42,
+            "Zwrócone":      4.36,
+            "Anulowane":     2.22
+        },
+        "B2B": {
+            "Zrealizowane": 97.14,
+            "Zwrócone":      1.24,
+            "Anulowane":     1.62
+        },
+
+        "_modifiers": {
+            "return_boost": {
+                "Smartfony":    1.82,
+                "Marketplace":  1.34
+            },
+            "return_reduce": {
+                "Sklep":        1.56
+            },
+            "seasonal_return_mult": {
+                "12": 3.0
+            }
+        }
+    },
+
+    "fulfillment_days": {
+        "Anulowane":                   { "days": 0 },
+        "Sklep":                       { "days": 0 },
+        "Polska|Online":               { "tiers": [{"range": [1,3], "pct": 79.84}, {"range": [4,5], "pct": 15.42}, {"range": [6,10], "pct": 4.74}] },
+        "Polska|Marketplace":          { "tiers": [{"range": [2,4], "pct": 74.63}, {"range": [5,7], "pct": 20.28}, {"range": [8,12], "pct": 5.09}] },
+        "Niemcy|Online":               { "tiers": [{"range": [3,6], "pct": 70.34}, {"range": [7,10], "pct": 24.82}, {"range": [11,15], "pct": 4.84}] },
+        "Niemcy|Marketplace":          { "tiers": [{"range": [3,6], "pct": 70.34}, {"range": [7,10], "pct": 24.82}, {"range": [11,15], "pct": 4.84}] },
+        "Czechy|Online":               { "tiers": [{"range": [3,5], "pct": 75.18}, {"range": [6,8], "pct": 19.64}, {"range": [9,12], "pct": 5.18}] },
+        "Czechy|Marketplace":          { "tiers": [{"range": [3,5], "pct": 75.18}, {"range": [6,8], "pct": 19.64}, {"range": [9,12], "pct": 5.18}] },
+        "Słowacja|Online":             { "tiers": [{"range": [3,5], "pct": 74.82}, {"range": [6,8], "pct": 20.14}, {"range": [9,12], "pct": 5.04}] },
+        "Słowacja|Marketplace":        { "tiers": [{"range": [3,5], "pct": 74.82}, {"range": [6,8], "pct": 20.14}, {"range": [9,12], "pct": 5.04}] },
+        "Opiekun":                     { "tiers": [{"range": [5,10], "pct": 70.46}, {"range": [11,15], "pct": 24.72}, {"range": [16,21], "pct": 4.82}] }
+    }
+}
