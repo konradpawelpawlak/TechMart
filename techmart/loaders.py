@@ -29,7 +29,10 @@ def resource_path(filename):
 def output_path(filename):
     """Zapis wyników CSV: obok pliku .exe po zbudowaniu; lokalnie – katalog projektu."""
     if _frozen():
-        base = os.path.dirname(os.path.abspath(sys.executable))
+        # W PyInstaller `--onefile` plik wykonywalny jest rozpakowywany do katalogu tymczasowego.
+        # `sys.executable` wtedy wskazuje TEMP, a nie folder gdzie leży oryginalne .exe.
+        # `sys.argv[0]` trzyma ścieżkę do uruchomionego pliku, więc mapujemy zapisy "obok .exe".
+        base = os.path.dirname(os.path.abspath(sys.argv[0]))
     else:
         base = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     return os.path.join(base, filename)
