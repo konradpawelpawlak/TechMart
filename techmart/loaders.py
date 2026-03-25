@@ -2,6 +2,8 @@
 
 import json
 import os
+import sys
+
 import pandas as pd
 
 from techmart.config import (
@@ -11,16 +13,44 @@ from techmart.config import (
 )
 
 
+def _frozen():
+    return getattr(sys, "frozen", False) is True
+
+
+def resource_path(filename):
+    """Pliki do odczytu: przy .exe w pakiecie PyInstaller (MEIPASS), inaczej katalog projektu."""
+    if _frozen():
+        base = getattr(sys, "_MEIPASS", os.path.dirname(sys.executable))
+    else:
+        base = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    return os.path.join(base, filename)
+
+
+def output_path(filename):
+    """Zapis wyników CSV: obok pliku .exe po zbudowaniu; lokalnie – katalog projektu."""
+    if _frozen():
+        base = os.path.dirname(os.path.abspath(sys.executable))
+    else:
+        base = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    return os.path.join(base, filename)
+
+
 def script_path(filename):
-    """Ścieżka relatywna do katalogu głównego skryptu (rodzic techmart/)."""
-    return os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), filename)
+    """Alias dla kompatybilności – wejścia z pakietu / projektu."""
+    return resource_path(filename)
 
 
 def load_dimensions():
-    for f in [DIM_PRODUCT_FILE, DIM_CUSTOMER_FILE]:
-        if not os.path.exists(script_path(f)):
-            raise FileNotFoundError(f"Nie znaleziono: {script_path(f)}")
-    return pd.read_csv(script_path(DIM_PRODUCT_FILE)), pd.read_csv(script_path(DIM_CUSTOMER_FILE))
+    prod_p = resource_path(DIM_PRODUCT_FILE)
+    cust_p = output_path(DIM_CUSTOMER_FILE)
+    if not os.path.exists(prod_p):
+        raise FileNotFoundError(f"Nie znaleziono: {prod_p}")
+    if not os.path.exists(cust_p):
+        raise FileNotFoundError(
+            f"Nie znaleziono: {cust_p}\n"
+            "Najpierw uruchom generator klientów (DimCustomer), potem sprzedaż."
+        )
+    return pd.read_csv(prod_p), pd.read_csv(cust_p)
 
 
 def load_decision_tree():

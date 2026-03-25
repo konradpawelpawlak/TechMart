@@ -18,10 +18,12 @@ Wyjście:
     DimCustomer.csv
 """
 
-import json
 import os
+
 import numpy as np
 import pandas as pd
+
+from techmart.loaders import load_decision_tree, output_path, resource_path
 
 # ============================================================
 #  CONFIG
@@ -30,7 +32,6 @@ import pandas as pd
 TARGET_B2C_COUNT = 10000
 TARGET_B2B_COUNT = 200
 
-DECISION_TREE_FILE = "decision_tree.json"
 OUTPUT_FILE        = "DimCustomer.csv"
 NAMES_FILE         = "imiona_i_nazwiska_lista.csv"
 
@@ -129,7 +130,7 @@ def load_polish_names():
     if _PL_NAMES_CACHE is not None:
         return _PL_NAMES_CACHE
 
-    path = script_path(NAMES_FILE)
+    path = resource_path(NAMES_FILE)
     if not os.path.exists(path):
         raise FileNotFoundError(f"Nie znaleziono pliku z imionami: {path}")
 
@@ -169,23 +170,11 @@ def generate_pl_name():
 #  POMOCNICZE
 # ============================================================
 
-def script_path(filename):
-    return os.path.join(os.path.dirname(os.path.abspath(__file__)), filename)
-
-
 def weighted_choice(prob_dict):
     keys    = list(prob_dict.keys())
     weights = np.array([prob_dict[k] for k in keys], dtype=float)
     weights /= weights.sum()
     return keys[np.random.choice(len(keys), p=weights)]
-
-
-def load_decision_tree():
-    path = script_path(DECISION_TREE_FILE)
-    if not os.path.exists(path):
-        raise FileNotFoundError(f"Nie znaleziono: {path}")
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
 
 
 # ============================================================
@@ -347,8 +336,8 @@ def main():
     df = generate_customers()
     print_summary(df)
 
-    output_path = script_path(OUTPUT_FILE)
-    df.to_csv(output_path, index=False)
+    out = output_path(OUTPUT_FILE)
+    df.to_csv(out, index=False)
     print(f"\n  ✓ {OUTPUT_FILE}  ({len(df):,} wierszy)")
     print(f"  Gotowe!\n")
 
